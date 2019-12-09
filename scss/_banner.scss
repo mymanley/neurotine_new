@@ -303,7 +303,10 @@
 /*================ agency_banner_area_two css ===============*/
 .agency_banner_area_two{
     background-image: -moz-linear-gradient( 40deg, rgb(94,44,237) 0%, rgb(164,133,253) 100%);
+    /*
     background-image: -webkit-linear-gradient( 40deg, rgb(94,44,237) 0%, rgb(164,133,253) 100%);
+    */
+    background-image: -webkit-linear-gradient(40deg, #6699cc 0%, #6699cc 100%);
     background-image: -ms-linear-gradient( 40deg, rgb(94,44,237) 0%, rgb(164,133,253) 100%);
     padding: 230px 0px 140px;
     position: relative;
