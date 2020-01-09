@@ -1935,11 +1935,17 @@ a, .btn, button {
       -webkit-transform: translateY(3rem);
       -ms-transform: translateY(3rem);
       transform: translateY(3rem);
-      -webkit-transition: opacity .5s .6s ease, -webkit-transform .5s .6s ease;
-      transition: opacity .5s .6s ease, -webkit-transform .5s .6s ease;
-      -o-transition: transform .5s .6s ease, opacity .5s .6s ease;
-      transition: transform .5s .6s ease, opacity .5s .6s ease;
-      transition: transform .5s .6s ease, opacity .5s .6s ease, -webkit-transform .5s .6s ease;
+      -webkit-transition: opacity .5s .6s ease,
+ -webkit-transform .5s .6s ease;
+      transition: opacity .5s .6s ease,
+ -webkit-transform .5s .6s ease;
+      -o-transition: transform .5s .6s ease,
+ opacity .5s .6s ease;
+      transition: transform .5s .6s ease,
+ opacity .5s .6s ease;
+      transition: transform .5s .6s ease,
+ opacity .5s .6s ease,
+ -webkit-transform .5s .6s ease;
       list-style: none;
       padding-left: 18%;
       padding-right: 100px;
@@ -3606,7 +3612,8 @@ a, .btn, button {
   padding-top: 5px; }
 
 .agency_featured_area_two {
-  padding-bottom: 150px; }
+  /*padding-bottom: 150px;*/
+  padding-bottom: 50px; }
 
 .features_info {
   position: relative;
@@ -3615,6 +3622,10 @@ a, .btn, button {
     position: absolute;
     left: 0;
     top: 28px; }
+  .features_info .dot_img_rev {
+    position: absolute;
+    left: 0;
+    top: 1128px; }
   .features_info.feature_info_two {
     padding-bottom: 70px; }
 
